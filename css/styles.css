@@ -502,6 +502,7 @@ border-radius: 4px;
 .portfolio {
 display: flex;
 flex-wrap: wrap;
+
 }
 
 .portfolio li {
@@ -512,10 +513,16 @@ flex-wrap: wrap;
   margin-bottom: 30px;
 }
 
-.portfolio li:hover {
-border: 1px solid #EEEEEE;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+.portfolio .link {
+    text-decoration: none;
 }
+
+.portfolio li:hover {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+display: block;
+}
+
 .description {
     border: 1px solid #f5f4fa;
     padding: 20px 24px;
@@ -556,5 +563,6 @@ border-bottom: 1px solid #ECECEC;
 .portfolio .text {
   font-size: 16px;
   line-height: 2;
+  color: var(--main-color);
 }
 
